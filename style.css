@@ -1,0 +1,33 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+#outerborder {
+  height: 100vh; /* Changed from 110vh to 100vh */
+  width: 100%;
+  background-color: #000000;
+  box-sizing: border-box;
+  border:20px solid red;
+  overflow: auto;
+}
+#element1, #element2 {
+  height: 75px;
+  width: 75px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+#element1 {
+  background-color: blue;
+}
+#element2 {
+  background-color: red;
+}
+#viewdistance{
+  color:white;
+}
+#COLLISIONDETECTED{
+  display: none;
+  margin-top:5vh;
+  color:green;
+  font-size:4vh;
+}
