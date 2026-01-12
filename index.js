@@ -1,7 +1,7 @@
 // server.js using CommonJS modules
 const http = require('http'); // Import the http module
 
-const hostname = '10.170.145.24';
+const hostname = '10.170.145.70';
 const port = 5500;
 
 // Create a server instance with a request handler callback
