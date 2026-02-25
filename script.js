@@ -48,7 +48,8 @@ document.getElementById("viewdistance").innerText = `THE DISTANCE IS = ${distanc
     
  if (distance < 110.00) {
   element1.style.backgroundColor = "green";
-           navigator.vibrate(20);//ONLY WORK ON SUPPORTIVE BROWSER// document.getElementById("COLLISIONDETECTED").style.display="block";   
+ document.getElementById("COLLISIONDETECTED").style.display="block"; 
+  
 } else {
   element1.style.backgroundColor = "blue";
   COLLISIONDETECTED.style.display="none";  
